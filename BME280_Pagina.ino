@@ -19,8 +19,8 @@ Adafruit_BME280 bme;
 float temperature, humidity, pressure, altitude;
 
 /*Put your SSID & Password*/
-const char* ssid = "Mastero Wifi";  // Enter SSID here
-const char* password = "mastero101";  //Enter Password here
+const char* ssid = "";  // Enter SSID here
+const char* password = "";  //Enter Password here
 
 ESP8266WebServer server(80);  
 int a=0; //variable of value of analog read pin
